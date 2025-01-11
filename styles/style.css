@@ -1,0 +1,200 @@
+/* font styles */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* common styles */
+.bg-color {
+  background-color: rgba(245, 245, 245, 1);
+}
+.primary-btn {
+  background-color: rgba(0, 106, 80, 1);
+  padding: 17px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.primary-btn:hover {
+  background-color: rgba(84, 144, 245, 1);
+}
+.bg-color2 {
+  background-color: rgba(198, 228, 214, 1);
+}
+/* body styles */
+body {
+  max-width: 1600px;
+  height: 5300px;
+}
+/* nav styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 160px;
+  margin-bottom: 20px;
+}
+.nav-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  color: rgba(14, 14, 14, 1);
+}
+.nav-signin {
+  padding: 15px 30px;
+  border: 1px solid rgba(0, 106, 80, 1);
+  border-radius: 8px;
+  color: rgba(0, 106, 80, 1);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+.nav-signin:hover {
+  background-color: yellowgreen;
+}
+/* banner-section styles */
+.banner-container {
+  max-width: 1280px;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  justify-content: center;
+  border-radius: 24px;
+  padding: 80px 100px;
+  margin: 0px 160px 80px 160px;
+}
+.banner-description {
+}
+.banner-section-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  letter-spacing: 0%;
+
+  color: rgba(14, 14, 14, 0.5);
+  margin-bottom: 16px;
+}
+.banner-subtitle {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  letter-spacing: 0%;
+
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 24px;
+}
+/* vision-of-future section styles */
+.vision-of-future {
+  max-width: 1280px;
+  height: 765px;
+  margin: 0px 160px 80px 160px;
+}
+.vision-of-future-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 1);
+  line-height: 48px;
+  letter-spacing: 0%;
+  margin-bottom: 24px;
+}
+.vision-of-future-description {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.vision-of-future-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.vision-of-future-card1 {
+  background-color: rgba(84, 144, 245, 0.2);
+  border: 1px solid rgba(84, 144, 245, 1);
+  border-radius: 16px;
+  max-width: 410.67px;
+  height: 325px;
+  padding: 32px;
+}
+.vision-of-future-card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 32px;
+  max-width: 410.67px;
+  height: 325px;
+  border: 1px solid rgba(9, 161, 92, 1);
+  border-radius: 16px;
+}
+.vision-of-future-card3 {
+  background-color: rgba(247, 235, 207, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 32px;
+  max-width: 410.67px;
+  height: 325px;
+  border: 1px solid rgba(255, 194, 57, 1);
+  border-radius: 16px;
+}
+.vision-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.vision-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 52px;
+}
+.learn-more1 {
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  line-height: 19.2px;
+  background-color: rgba(84, 144, 245, 1);
+  cursor: pointer;
+}
+.learn-more2 {
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  line-height: 19.2px;
+  background-color: rgba(9, 161, 92, 1);
+  cursor: pointer;
+}
+.learn-more3 {
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  line-height: 19.2px;
+  background-color: rgba(255, 194, 57, 1);
+  cursor: pointer;
+}
+.learn-more1:hover {
+  background-color: white;
+}
+.learn-more2:hover {
+  background-color: white;
+}
+.learn-more3:hover {
+  background-color: white;
+}
